@@ -1,6 +1,6 @@
 # Severity Matrix
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Severity framework with hypothetical example issues; no observed frequency claimed
 
 ## Severity Model
 
@@ -15,6 +15,8 @@ Severity is based on user impact, task blockage, frequency, and recovery effort.
 
 ## Issue Matrix
 
+The issues below are illustrative risks. Replace them with evidence-backed issues after testing and add evidence IDs, relevant n/N, affected task, and confidence.
+
 | Issue | Impact | Frequency | Recovery | Severity | Recommended Action |
 | --- | --- | --- | --- | --- | --- |
 | Prerequisites are easy to miss | Users start tasks without needed context | Common | Difficult without backtracking | High | Move prerequisites before lesson start and summarize skill needs. |
@@ -27,3 +29,5 @@ Severity is based on user impact, task blockage, frequency, and recovery effort.
 ## Prioritization Notes
 
 The highest priority issues are those that reduce learner confidence and prevent independent recovery. For an education product, confusion is not just friction; it can change whether a user believes they are capable of continuing.
+
+Severity is not a vote count. Consider task criticality, accessibility impact, affected users, recovery, recurrence, and evidence confidence. Keep engineering effort separate so a difficult fix does not appear less harmful. A critical accessibility barrier may require action even when observed once.

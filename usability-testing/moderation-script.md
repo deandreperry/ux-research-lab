@@ -1,6 +1,14 @@
 # Moderation Script
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Study-ready moderation script; no sessions completed
+- **Target duration:** 45 minutes, including consent and closing
+
+## Moderator Setup
+
+- Confirm participant eligibility, incentive, accommodations, prototype version, and note-taking roles.
+- Prepare a safe code sandbox with no participant files or credentials.
+- Test keyboard access, captions, zoom, screen-reader behavior, and recovery from prototype failure.
+- Mark each prompt with its task and research-question ID in the session notes.
 
 ## Introduction
 
@@ -10,9 +18,11 @@ Please think aloud as you work. Tell me what you expect to happen, what you noti
 
 ## Consent And Context
 
-- This is a simulated portfolio research artifact.
-- In a real study, participation, recording, privacy, and data handling would be confirmed before starting.
-- The session would take about 30 to 45 minutes.
+- Explain that participation is voluntary and the product—not the participant—is being evaluated.
+- Confirm duration, incentive, data use, retention, and the right to skip, pause, or stop.
+- Obtain separate consent for participation, recording, and possible public use of a de-identified excerpt.
+- Remind the participant not to share passwords, private files, or confidential employer information.
+- Confirm that the participant is comfortable before recording.
 
 ## Warm-Up
 
@@ -76,3 +86,14 @@ Prompts:
 - What helped you keep going?
 - What would make you more likely to return?
 - Is there anything else you want the product team to know?
+
+After stopping the recording, explain compensation timing, withdrawal and data-deletion options, researcher contact, and whether a participant-facing summary will be available.
+
+## Moderator Bias And Observation Notes
+
+- Ask neutral probes and allow silence before offering help.
+- Do not teach the interface or praise a strategy.
+- Record every hint and intervention.
+- Distinguish product failure, technical failure, and participant input error.
+- Write behavior and participant language before adding interpretation.
+- Note contradictory evidence and researcher assumptions immediately after the session.

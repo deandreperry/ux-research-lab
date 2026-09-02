@@ -1,10 +1,14 @@
-# Frontend Developer Persona
+# Provisional Frontend Developer Archetype
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Hypothesis archetype; not validated participant segmentation
+
+## Intended Use
+
+Use this archetype to identify recruitment and product assumptions, not to represent all frontend developers or justify a decision without evidence. Replace the fictional narrative with behavioral segments after research.
 
 ## Background
 
-Jordan is a frontend developer responsible for turning product requirements and design specs into reliable web interfaces. They care about performance, maintainability, accessibility, and clean implementation patterns.
+A practitioner responsible for turning product requirements and design specifications into reliable web interfaces. The relevant behavior is evaluating implementation risk and reuse readiness—not age, personality, or a fictional identity.
 
 ## Goals
 
@@ -47,3 +51,11 @@ Jordan benefits from guidance on semantic HTML, keyboard support, ARIA use, focu
 - Provide code examples with expected output.
 - Add accessibility acceptance criteria to pattern pages.
 - Include troubleshooting paths for common setup and implementation errors.
+
+## Jobs To Be Done
+
+When evaluating a reusable pattern, this practitioner needs to understand expected behavior, constraints, accessibility, and maintenance risk so they can implement it without creating avoidable rework.
+
+## Validation Requirements
+
+Test whether these needs cluster through recent-experience interviews and observed pattern-selection tasks. Record evidence IDs, counterexamples, and meaningful variation by responsibility and context. Retire or split the archetype if behavior does not cohere.

@@ -1,6 +1,15 @@
 # Nonprofit Admin Interview Guide
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Study-ready portfolio simulation; organization-specific tailoring required
+- **Session length:** 45 minutes
+- **Research questions:** NP-RQ1 trust information, NP-RQ3 staff workflow, NP-RQ4 operational constraints
+
+## Before The Session
+
+- Tailor terminology to the organization's mission and governance.
+- Explain duration, recording, incentive when applicable, confidentiality, and data use.
+- Ask about accessibility and communication accommodations.
+- Request a recent content-update example without asking for donor or beneficiary data.
 
 ## Interview Objective
 
@@ -12,7 +21,9 @@ Nonprofit staff, communications managers, volunteer coordinators, operations lea
 
 ## Opening Script
 
-Thank you for speaking with me. This conversation is about how nonprofit teams use their websites to communicate mission, build trust, and support action. I am not evaluating your organization. I am learning about common workflows and challenges.
+Thank you for speaking with me. This conversation is about how your team uses its website to communicate mission, build trust, and support action. I am evaluating the workflow, not your performance. Please do not share identifiable donor, volunteer, employee, or program-participant information. You may skip questions, take a break, or stop at any time.
+
+Confirm consent, recording permission, confidentiality limits, and whether any de-identified excerpt may be considered for public sharing.
 
 ## Warm-Up Questions
 
@@ -47,3 +58,11 @@ Thank you for speaking with me. This conversation is about how nonprofit teams u
 - If you could improve one website workflow this quarter, what would it be?
 - What kind of research would help you make better website decisions?
 - Is there anything important about nonprofit operations that designers often miss?
+
+## Moderator Notes
+
+- Ask for recent examples, artifacts, and approval steps instead of idealized process.
+- Separate leadership goals from the daily work of maintaining content.
+- Do not assume conversion is the organization's only or primary outcome.
+- Mark sensitive information for exclusion immediately.
+- Record contradictions between staff roles as evidence, not noise.

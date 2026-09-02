@@ -1,46 +1,76 @@
 # Interview Guide Template
 
+## Study Metadata
+
+- **Status:** `[Draft / piloted / approved]`
+- **Session length:** `[Duration]`
+- **Research-question IDs:** `[RQ1, RQ2]`
+- **Participant segment:** `[Behavior-based definition]`
+- **Prototype or stimulus:** `[Version]`
+
 ## Interview Objective
 
-Describe what this interview should help the team understand.
+`[What this conversation should help the team decide.]`
 
-## Participant Profile
+## Before The Session
 
-Define who should participate and what relevant experience they should have.
+- Confirm eligibility from recent relevant behavior.
+- Communicate duration, activity, incentive, recording, privacy, and data use.
+- Ask about accessibility and communication accommodations.
+- Prepare structured notes that separate observation and interpretation.
+- Confirm the observer policy and technical fallback.
 
-## Opening Script
+## Opening And Consent
 
-Thank you for joining. I am interested in your experience and perspective. This is not a test, and there are no right or wrong answers. You can skip any question or stop at any time.
+`[Introduce the study, explain that the product or workflow is being evaluated, request that confidential information not be shared, and confirm the right to skip, pause, or stop without penalty.]`
 
-## Warm-Up Questions
+Confirm separately:
 
-- Tell me about your role or experience with this topic.
-- What tools, products, or workflows do you use most often?
-- When was the last time you encountered this problem?
+- Participation consent
+- Recording consent
+- Data-retention understanding
+- Optional public use of de-identified excerpts
 
-## Core Questions
+## Warm-Up: 5 Minutes
 
-- Walk me through how you currently handle this task.
-- What works well about your current process?
-- Where do you usually get stuck?
-- What information helps you make decisions?
-- What would make this experience easier or more trustworthy?
+- `[Recent context question]`
+- `[Role or task question]`
 
-## Task-Based Prompts
+## Recent Experience: 15 Minutes
 
-- Show me how you would complete this task.
-- What do you expect to happen next?
-- What would you do if this did not work?
+- Tell me about the last time you `[relevant behavior]`.
+- What were you trying to accomplish?
+- What happened first, next, and after that?
+- What information or tools did you use?
+- Where, if anywhere, did the process break down?
 
-## Follow-Up Probes
+Avoid accepting a general preference when a recent example is available.
 
-- Can you tell me more about that?
-- What made you choose that option?
-- How often does this happen?
-- What would you need to feel confident?
+## Core Questions: 15 Minutes
 
-## Closing Questions
+| Question | Research Question | Neutral Probe |
+| --- | --- | --- |
+| `[Question]` | `[RQ ID]` | `What happened next?` |
 
-- What is the most important thing the team should understand?
-- Is there anything I did not ask that matters here?
-- Would you be open to follow-up questions if needed?
+## Task Or Stimulus: 10 Minutes
+
+`[Provide a goal without naming the control or solution being tested.]`
+
+Observe path, expectations, evidence used, errors, recovery, confidence with rationale, accessibility barriers, and moderator help.
+
+## Closing: 5 Minutes
+
+- What was most important that we discussed?
+- What did I misunderstand or fail to ask?
+- May the team contact you for a follow-up under the stated terms?
+
+After recording stops, explain compensation, withdrawal, deletion, researcher contact, and participant-facing results when available.
+
+## Moderator Checklist
+
+- Use neutral probes and allow silence.
+- Do not praise answers, teach the interface, or defend the concept.
+- Record hints and interventions.
+- Separate behavior, participant explanation, and interpretation.
+- Mark contradictory evidence and skipped questions.
+- Stop when continued participation creates unnecessary risk or fatigue.

@@ -1,6 +1,8 @@
-# Command-Line Learning Journey
+# Command-Line Learning Hypothesis Journey
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Assumption map; stages and thoughts are not participant findings
+
+The “Thoughts” entries are prompts for validation, not participant quotations.
 
 ## Scenario
 
@@ -26,3 +28,7 @@ Complete common command-line tasks without fear, understand command output, and 
 - Include expected output for every command.
 - Teach recovery paths as part of the lesson, not as an appendix.
 - Connect CLI actions to visible frontend outcomes.
+
+## Validation Plan
+
+Observe learners with varied recent CLI use in a safe sandbox. Record paths, predictions, errors, workarounds, help-seeking, recovery, and task transfer one week later. Add non-linear journeys for setup failure, external search, peer help, and abandonment when evidence supports them.

@@ -1,8 +1,8 @@
-# Developer Tools Affinity Map
+# Developer Tools Hypothesis Map
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Assumption map for research planning; not synthesized participant data
 
-## Raw Observations
+## Hypotheses To Validate
 
 - Learners often copy commands before understanding the outcome.
 - Developers trust examples more when they include expected output.
@@ -13,6 +13,8 @@
 - Advanced users scan headings and code blocks before reading prose.
 
 ## Grouped Themes
+
+The themes below organize hypotheses for study planning. They must not be reported as findings until each claim is connected to coded evidence.
 
 | Theme | Supporting Observations |
 | --- | --- |
@@ -49,3 +51,11 @@
 - Include output previews for CLI lessons.
 - Add contextual hints when learners make repeatable mistakes.
 - Track confidence before and after core learning paths.
+
+## Evidence Upgrade Plan
+
+After research, replace each hypothesis with de-identified evidence IDs, relevant participant coverage, counterexamples, interpretation, and confidence. Keep raw notes in a restricted research system rather than this public repository. Record codebook changes and preserve evidence that does not support the preferred product direction.
+
+| Hypothesis | Supporting Evidence IDs | Counterevidence | Confidence | Decision Affected |
+| --- | --- | --- | --- | --- |
+| `[Statement to test]` | `[E-001, E-004]` | `[E-009 or none]` | `[Low/medium/high]` | `[Product decision]` |

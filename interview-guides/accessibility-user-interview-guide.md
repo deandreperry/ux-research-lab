@@ -1,6 +1,17 @@
-# Accessibility User Interview Guide
+# Disabled Participant Interview Guide
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Draft inclusive-research protocol; disabled advisor review required before use
+- **Session length:** 45–60 minutes with flexible breaks
+- **Research questions:** AP-RQ3 lived experience, AP-RQ4 accessible workflow, AP-RQ5 trust and control
+
+## Before The Session
+
+- Recruit for relevant access experiences without requiring diagnosis disclosure.
+- Ask which identity language the participant prefers.
+- Offer questions and task descriptions in advance.
+- Confirm participant-selected technology, communication method, captions, breaks, and additional time.
+- Accessibility-test the prototype and meeting platform before recruitment.
+- Arrange compensation for pilots and sessions, including participant-ended sessions.
 
 ## Interview Objective
 
@@ -8,11 +19,13 @@ Understand how users with accessibility needs evaluate digital learning tools, a
 
 ## Participant Profile
 
-Users who rely on assistive technology, keyboard navigation, captions, high contrast settings, zoom, reduced motion, plain language, or other accessibility supports.
+Disabled people and people with relevant access needs who use assistive technology, keyboard navigation, captions, contrast settings, zoom, reduced motion, plain language, alternative input, or other supports. The sample should document which experiences are included and absent without treating participants as representatives of a whole disability community.
 
 ## Opening Script
 
-Thank you for participating. This session is about understanding accessibility experiences and barriers. You can skip any question, pause at any time, or describe your experience in whatever way is comfortable. I am not testing you; I am evaluating how products can better support people.
+Thank you for participating and sharing your expertise. This session is about how this product supports or creates barriers during specific tasks. You can skip any question, take a break, change how we communicate, or stop at any time and still receive the stated incentive. I am evaluating the product, not you. Please do not share private medical information unless you independently decide it is relevant.
+
+Confirm participation consent, separate recording consent, data-retention timing, and whether a de-identified excerpt may be considered for public sharing. Do not begin recording until the participant agrees.
 
 ## Warm-Up Questions
 
@@ -47,3 +60,12 @@ Thank you for participating. This session is about understanding accessibility e
 - What should product teams stop assuming about accessibility?
 - What would make this tool more useful to you?
 - Is there anything I should have asked differently?
+
+## Moderator Notes
+
+- Do not ask the participant to educate the team about an entire disability group.
+- Ask what happened in this task and what impact it had for this participant.
+- Avoid taking control of participant technology unless explicitly invited.
+- Record product behavior, participant impact, workaround, and recovery separately.
+- Stop a task when continued effort creates unnecessary fatigue or frustration.
+- Offer an accessible participant-facing summary after synthesis.

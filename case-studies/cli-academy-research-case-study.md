@@ -1,44 +1,32 @@
 # CLI Academy Research Case Study
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Planning only; research has not started
+- **My role:** Research plan, learning tasks, interview and test design, synthesis, and measurement
+- **Decision:** Choose the lesson structure and feedback model for a beginner CLI prototype
 
-## Project Overview
+## Why This Project
 
-CLI Academy is a proposed learning platform for beginners who need command-line confidence for frontend and developer workflows.
+CLI Academy is a proposed learning product for people who need command-line skills for frontend workflows. Learners may copy commands without understanding system state, interpret warnings as failures, or abandon a task when the tutorial no longer matches their output.
 
-## Problem
+Completing one guided task can create false confidence. I would look at how people recover on their own and whether they can complete a similar task later, not only whether they liked the lesson.
 
-Learners often memorize commands without understanding what they do. When output differs from a tutorial, they may feel stuck, anxious, or unable to recover.
+## How I Would Approach It
 
-## Research Method
+I would begin with interviews about recent errors and abandoned lessons. A baseline task would show how confidence compares with behavior. Prototype sessions would focus on orientation, output, and recovery, followed by a similar task one week later without step-by-step help.
 
-- Learner interviews about prior terminal experiences
-- Survey of command-line confidence and abandonment triggers
-- Usability testing of guided terminal lesson concepts
-- Analysis of error recovery moments
+## Hypotheses To Test
 
-## Key Insights
+- Orientation to path, current directory, and reversibility may reduce perceived risk.
+- Expected output may be as important as the command itself.
+- Explaining cause and next action may support independent recovery.
+- Learners with different recent experience may require different scaffolding.
 
-- The terminal feels risky when learners do not understand state, location, or reversibility.
-- Expected output is as important as the command itself.
-- Error recovery can build confidence when feedback explains cause and next action.
-- Learners need visible connections between command-line actions and product outcomes.
+## What It Would Help Decide
 
-## Design Implications
+The study would help decide whether every lesson needs location context, a clear purpose, expected output, feedback about the current state, and a safe recovery path. I would report task success, recovery, explanation, confidence, and one-week follow-up separately.
 
-CLI lessons should teach mental models, not only command sequences. The experience should show current directory, command purpose, expected output, and safe recovery paths.
+## Reflection
 
-## Recommendations
+Immediate completion can be misleading when the instructions give away the answer. The follow-up task and hint tracking would help me see whether the lesson supports learning or only helps someone finish once.
 
-- Add "where you are" context before each task.
-- Pair commands with expected output and plain-language explanation.
-- Distinguish warnings from errors.
-- Include reset and recovery steps in the main lesson flow.
-
-## Outcome
-
-The simulated research shaped CLI Academy around confidence, recovery, and practical workflow understanding rather than memorization.
-
-## What I Would Test Next
-
-I would run a retention study to see whether learners can complete similar CLI tasks one week later without step-by-step prompts.
+Explore the [project hub](../projects/cli-academy/), [research plan](../research-plans/cli-academy-research-plan.md), and [learning survey](../surveys/developer-learning-survey.md).

@@ -1,6 +1,8 @@
-# Nonprofit Donor Journey
+# Nonprofit Donor Hypothesis Journey
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Assumption map; no donor behavior or quotations claimed
+
+The “Thoughts” entries are illustrative prompts. This journey represents one first-time donor scenario and must not be applied to returning donors, volunteers, or program participants without evidence.
 
 ## Scenario
 
@@ -26,3 +28,7 @@ Understand the mission, trust the organization, and complete a donation with con
 - Make donation impact concrete without overstating certainty.
 - Design the form for mobile completion.
 - Use confirmation as a relationship-building moment.
+
+## Validation Plan
+
+Observe first-time donors completing a realistic mobile and desktop flow without requiring a real donation. Connect each stage to evidence IDs, task behavior, accessibility barriers, and trust reasoning. Add alternate paths for research, hesitation, abandonment, payment failure, and returning later. Validate impact statements with the organization before testing them.

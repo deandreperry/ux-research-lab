@@ -1,6 +1,11 @@
 # Nonprofit Website Feedback Survey
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Study-ready survey draft; organization-specific tailoring required
+- **Estimated completion time:** 3–5 minutes
+
+## Consent And Privacy
+
+Explain who is collecting responses, why, whether an incentive applies, how long data will be retained, and how to ask questions. Avoid collecting donation amount, income, beneficiary status, or identifying information unless essential and explicitly consented.
 
 ## Survey Goal
 
@@ -12,9 +17,11 @@ Donors, prospective volunteers, community members, program participants, and par
 
 ## Screening Questions
 
-- Have you donated to or volunteered with a nonprofit in the past year?
-- What brought you to the website today?
-- Are you familiar with this nonprofit's mission?
+- In the past year, which activities have you done? `Donated / volunteered / used nonprofit services / researched an organization / none / prefer not to answer`
+- What was your primary reason for visiting today? `Donate / volunteer / learn about programs / seek services / contact the organization / another reason`
+- Before today, how familiar were you with this organization? `Not at all / slightly / moderately / very / extremely`
+
+Branch respondents into donor, volunteer, program-information, or service-access paths. Do not compare these groups as if they entered with the same goal.
 
 ## Multiple-Choice Questions
 
@@ -49,4 +56,12 @@ Rate from 1, strongly disagree, to 5, strongly agree:
 
 ## How Results Would Be Analyzed
 
-Results would be segmented by visitor intent. Ratings would identify clarity and trust gaps, while open-ended responses would be coded into content, navigation, donation friction, credibility signals, and action clarity.
+Define sampling, recruitment channel, field dates, missing-data treatment, and subgroup comparisons before launch. Report counts, denominators, distributions, and completion rates by visitor intent. Treat trust ratings and intended actions as perceptions, not completed donations or volunteering. Code open responses into content, navigation, credibility, accessibility, privacy, and action themes while retaining counterexamples. Pair the survey with behavioral analytics or usability observation before making causal claims.
+
+## Quality And Ethics Checks
+
+- Validate that impact language is accurate and does not pressure respondents.
+- Test mobile, keyboard, screen-reader, zoom, and error-state access.
+- Offer “another response” and “prefer not to answer” where appropriate.
+- Avoid combining two ideas in one rating item.
+- Exclude identifying stories from public reporting unless explicit permission exists.

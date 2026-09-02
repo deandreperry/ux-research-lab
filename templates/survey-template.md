@@ -1,52 +1,61 @@
 # Survey Template
 
-## Survey Goal
+## Survey Metadata
 
-Describe what decision this survey should inform.
+- **Status:** `[Draft / piloted / in field / closed]`
+- **Decision:** `[Decision informed]`
+- **Target population:** `[Definition]`
+- **Sampling source:** `[Source]`
+- **Field dates:** `[Dates]`
+- **Estimated completion:** `[Minutes]`
 
-## Target Audience
+## Consent And Privacy
 
-Define the respondent group, experience level, and relevant screening criteria.
+Explain purpose, sponsor, voluntary participation, incentive, data use, retention, researcher contact, and withdrawal. Collect only necessary data and provide accessible alternatives. Add “prefer not to answer” for nonessential questions.
 
-## Screening Questions
+## Research Questions
 
-- Question 1
-- Question 2
-- Question 3
+| ID | Research Question | Survey Item IDs |
+| --- | --- | --- |
+| RQ1 | `[Question]` | `[Q1, Q4]` |
 
-## Multiple-Choice Questions
+## Eligibility And Branching
 
-1. Question text
-   - Option A
-   - Option B
-   - Option C
-   - Option D
+| Item | Response Options | Logic |
+| --- | --- | --- |
+| Q1 | `[Exhaustive, mutually appropriate options]` | `[Continue / branch / end]` |
 
-2. Question text
-   - Option A
-   - Option B
-   - Option C
-   - Option D
+## Core Items
 
-## Likert Scale Questions
+Use one construct per item, fully label scale endpoints, and define the reference period.
 
-Rate from 1, strongly disagree, to 5, strongly agree:
+| ID | Item | Response Format | Randomize? | Required? |
+| --- | --- | --- | --- | --- |
+| Q2 | `[Question]` | `[Options or labeled scale]` | `[Yes/no]` | `[Yes/no]` |
 
-- Statement 1
-- Statement 2
-- Statement 3
-- Statement 4
+## Open Response
 
-## Open-Ended Questions
+- `[Ask for a specific recent example rather than general feedback.]`
 
-- What was most difficult or confusing?
-- What would improve this experience?
-- Is there anything else you want the team to know?
+Warn respondents not to include identifying or confidential information.
 
 ## Analysis Plan
 
-Describe how responses will be segmented, what comparisons will be made, and how open-ended responses will be coded.
+- Define exclusions and missing-data treatment before launch.
+- Report recruitment source, field dates, counts, denominators, distributions, and uncertainty.
+- Limit subgroup comparisons to the planned question and adequate sample.
+- Distinguish self-reported attitude or intent from observed behavior.
+- Use a documented codebook for open responses and preserve counterexamples.
+- Do not claim causation from a descriptive survey.
 
-## Reporting Plan
+## Pilot And Quality Checks
 
-Summarize how findings will be shared and what product decisions they should support.
+- Conduct cognitive interviews or a small pilot.
+- Test mobile, keyboard, screen reader, zoom, error, and timeout behavior.
+- Randomize non-ordinal options where appropriate.
+- Check for leading, double-barreled, overlapping, and non-exhaustive questions.
+- Define duplicate, speed, bot, and partial-response handling.
+
+## Reporting
+
+Connect each result to the research question, decision, limitation, and recommended follow-up. Do not publish raw open text until identifying details and sharing consent are reviewed.

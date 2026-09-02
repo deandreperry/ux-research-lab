@@ -1,10 +1,14 @@
-# Accessibility Learner Persona
+# Provisional Accessibility Learner Archetype
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Hypothesis archetype; disabled participant and product-team validation required
+
+## Intended Use
+
+Use this archetype to plan questions about learning and workflow. Do not treat product practitioners and disabled users as the same audience or assume one generic accessibility experience.
 
 ## Background
 
-Sam is a product team member building stronger accessibility skills. They may be a designer, developer, QA tester, or content contributor who wants to apply accessibility guidance with more confidence.
+A product-team practitioner building accessibility capability within a specific role. Design, engineering, QA, and content responsibilities may produce different needs and should be examined separately.
 
 ## Goals
 
@@ -48,3 +52,11 @@ Sam may also need accessible training materials: clear headings, captions, keybo
 - Provide role-based accessibility learning paths.
 - Pair automated findings with human impact explanations.
 - Include guided audits that teach while users work.
+
+## Jobs To Be Done
+
+When addressing an accessibility issue, this practitioner needs to connect a requirement to user impact, validation, ownership, and remediation so the team can make a responsible decision.
+
+## Validation Requirements
+
+Validate role-specific behavior with product-team research and validate product impact through compensated research with disabled participants. Do not use this archetype as a proxy for lived experience.

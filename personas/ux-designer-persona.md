@@ -1,10 +1,14 @@
-# UX Designer Persona
+# Provisional UX Designer Archetype
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Hypothesis archetype; not validated participant segmentation
+
+## Intended Use
+
+Use this archetype to surface assumptions about pattern decisions and handoff. It does not represent every designer and should not be used as participant evidence.
 
 ## Background
 
-Maya is a UX designer on a product team that ships complex web workflows. She creates wireframes, prototypes, and design specs, and often partners with engineers to refine interaction details.
+A practitioner who defines complex web workflows, prototypes interactions, and aligns product intent with engineering constraints. The relevant behavior is how evidence and collaboration shape pattern decisions—not a fictional identity.
 
 ## Goals
 
@@ -47,3 +51,11 @@ Maya needs reminders and examples for keyboard flow, focus states, labels, error
 - Add designer-focused pattern guidance with interaction rationale.
 - Provide accessibility prompts during early exploration.
 - Include handoff notes that describe behavior, not just layout.
+
+## Jobs To Be Done
+
+When choosing a UI pattern, this practitioner needs credible rationale, states, accessibility behavior, and feasibility context so they can defend a decision and reduce downstream ambiguity.
+
+## Validation Requirements
+
+Validate the assumed behaviors through recent examples and observed evaluation tasks. Link claims to evidence, retain designers who work differently, and segment by behavior or responsibility when the data supports it.

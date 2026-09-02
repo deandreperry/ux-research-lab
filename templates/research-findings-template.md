@@ -1,63 +1,63 @@
 # Research Findings Template
 
-## Project Name
+## Readout Metadata
 
-`[Project or study name]`
+- **Project:** `[Name]`
+- **Status:** `[Preliminary / final]`
+- **Study dates:** `[Dates]`
+- **Research owner:** `[Role]`
+- **Decision owner:** `[Role]`
+- **Sample and method:** `[Concise description]`
 
-## Artifact Type
+## Decision And Executive Summary
 
-`[Real research, Portfolio Simulation, usability test report, discovery readout, etc.]`
+`[Lead with the decision, the most important evidence, recommended action, confidence, and principal limitation.]`
 
-## Executive Summary
+## Scope And Method Rationale
 
-Summarize the most important finding, why it matters, and what the team should do next.
+`[Explain what was studied, why the method fit, and what it cannot establish.]`
 
-## Research Questions
+## Sample
 
-- Question 1
-- Question 2
-- Question 3
+| Relevant Characteristic | Coverage | Known Gap |
+| --- | --- | --- |
+| `[Behavior, role, context, access need]` | `[Count or description]` | `[Gap]` |
 
-## Method
+## Findings
 
-Describe the research method, participant profile, materials, and any limitations.
+### `[Finding expressed as a behavior, need, or tension]`
 
-## Key Findings
+- **Research question:** `[RQ ID]`
+- **Decision informed:** `[Decision]`
+- **Evidence:** `[Observed pattern, IDs, and meaningful denominator]`
+- **Participant explanation:** `[Short consented excerpt or paraphrase]`
+- **Counterevidence and variation:** `[Difference or contradiction]`
+- **Interpretation:** `[Meaning, kept separate from evidence]`
+- **Confidence:** `[Low/medium/high with rationale]`
+- **Limitation:** `[Boundary]`
 
-| Finding | Evidence | Impact | Recommendation |
-| --- | --- | --- | --- |
-|  |  |  |  |
-
-## Themes
-
-### Theme 1
-
-Describe the pattern and include concise evidence.
-
-### Theme 2
-
-Describe the pattern and include concise evidence.
-
-### Theme 3
-
-Describe the pattern and include concise evidence.
-
-## Product Implications
-
-Explain how the findings should influence design, content, frontend implementation, accessibility, or roadmap decisions.
+Repeat for each finding. Do not use participant counts as statistical prevalence in qualitative work.
 
 ## Recommendations
 
-- Recommendation 1
-- Recommendation 2
-- Recommendation 3
+| Recommendation | Evidence IDs | User Impact | Product Or Business Relevance | Owner | Priority | Validation Signal |
+| --- | --- | --- | --- | --- | --- | --- |
+| `[Action]` | `[IDs]` | `[Impact]` | `[Relevance]` | `[Role]` | `[Now/next/later]` | `[Measure]` |
 
-## Risks And Limitations
+## Stakeholder Decisions
 
-- Limitation 1
-- Limitation 2
-- Assumption 1
+| Recommendation | Disposition | Rationale | Owner | Date |
+| --- | --- | --- | --- | --- |
+| `[Recommendation]` | `[Adopt/test/defer/decline]` | `[Evidence and constraint]` | `[Role]` | `[Date]` |
+
+## Limitations And Reflexivity
+
+Document sample gaps, study context, missing or failed sessions, method limits, conflicting evidence, researcher relationship to the topic, and how preferred solutions may have shaped interpretation.
+
+## Impact Measurement
+
+Separate research delivery, product validation, and longer-term user or organizational outcomes. Include baselines and avoid attributing change to research alone.
 
 ## Next Research
 
-Describe what should be tested, measured, or explored next.
+`[Name the unresolved decision risk and the method best suited to it.]`

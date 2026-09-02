@@ -1,6 +1,15 @@
 # UX Designer Interview Guide
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Study-ready portfolio simulation
+- **Session length:** 45 minutes
+- **Research questions:** FI-RQ1 current workflow, FI-RQ2 trust, FI-RQ3 role needs, FI-RQ5 accessibility
+
+## Before The Session
+
+- Confirm recent pattern-selection experience.
+- Share duration, incentive, recording request, privacy notice, and prototype requirements.
+- Ask about accessibility or communication accommodations.
+- Prepare research-question IDs and structured notes.
 
 ## Interview Objective
 
@@ -12,7 +21,9 @@ UX, product, or interaction designers who create flows, component specs, prototy
 
 ## Opening Script
 
-Thank you for joining. This session is a portfolio simulation interview about design workflow and frontend decision-making. There are no right or wrong answers. I am interested in how you think, where your workflow slows down, and what information helps you make confident product decisions.
+Thank you for joining. This session explores design workflow and frontend decision-making. There are no right or wrong answers. Please avoid sharing confidential employer or client information. You may skip any question, take a break, or stop at any time and still receive the stated incentive.
+
+Before recording, confirm participation consent, separate recording consent, data use, and whether a de-identified excerpt may be considered for the public portfolio.
 
 ## Warm-Up Questions
 
@@ -47,3 +58,11 @@ Thank you for joining. This session is a portfolio simulation interview about de
 - If you could improve one thing about frontend pattern documentation, what would it be?
 - What research artifact would be most useful to you during design work?
 - Is there anything important about your workflow that I did not ask?
+
+## Moderator Notes
+
+- Ask for recent behavior before hypothetical preference.
+- Rotate task examples when order effects could matter.
+- Do not praise an answer or defend the concept.
+- Record observation, participant explanation, and researcher interpretation separately.
+- Note contradictions, skipped questions, and moderator assistance.

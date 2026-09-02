@@ -1,6 +1,15 @@
 # Frontend Developer Interview Guide
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Study-ready portfolio simulation
+- **Session length:** 45 minutes
+- **Research questions:** FI-RQ1 current workflow, FI-RQ2 trust, FI-RQ3 role needs, FI-RQ5 accessibility
+
+## Before The Session
+
+- Confirm eligibility through recent pattern-selection behavior.
+- Send duration, incentive, recording request, privacy notice, and prototype requirements.
+- Ask about accessibility or communication accommodations.
+- Prepare a note-taking sheet that separates observation from interpretation.
 
 ## Interview Objective
 
@@ -12,7 +21,9 @@ Frontend developers, design engineers, or full-stack developers who regularly im
 
 ## Opening Script
 
-Thanks for participating. I am researching how developers use documentation and examples to make frontend decisions. This is not a test of your technical skill. I am focused on your workflow, expectations, and points of friction.
+Thanks for participating. I am researching how developers use documentation and examples to make frontend decisions. This is not a test of your technical skill. I am focused on your workflow, expectations, and points of friction. Please avoid sharing confidential employer or client information. You may skip a question, take a break, or stop at any time and still receive the stated incentive.
+
+Before recording, confirm participation consent, separate recording consent, how notes will be used, and whether a de-identified excerpt may be considered for the public portfolio.
 
 ## Warm-Up Questions
 
@@ -47,3 +58,11 @@ Thanks for participating. I am researching how developers use documentation and 
 - What is one documentation improvement that would save you time?
 - What do teams misunderstand about developer experience?
 - What should a research-informed frontend portfolio show?
+
+## Moderator Notes
+
+- Ask for a recent example before accepting a general opinion.
+- Use neutral probes; do not confirm the product hypothesis.
+- Record the participant's words separately from interpretation.
+- Mark questions skipped for time and any moderator assistance.
+- End with the compensation and data-deletion process.

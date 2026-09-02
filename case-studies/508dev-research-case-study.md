@@ -1,44 +1,36 @@
 # 508dev Research Case Study
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Planning only; research has not started
+- **My role:** Research plan, inclusive interview and test design, analysis plan, and communication
+- **Decision:** Determine which audit-to-remediation workflow should be prototyped
 
-## Project Overview
+## Why This Project
 
-508dev is a proposed accessibility learning and audit platform for product teams. The research explored how teams understand accessibility issues, prioritize fixes, and translate guidance into implementation work.
+508dev is a proposed accessibility learning and audit platform. Product teams may discover accessibility issues late, receive automated results without user-impact context, or struggle to convert findings into owned remediation work.
 
-## Problem
+Team assumptions cannot stand in for the experience of disabled people. I would also avoid treating one person as a representative for a whole disability community.
 
-Accessibility work is often delayed until QA or compliance review. Teams may receive issue lists without understanding user impact, priority, or remediation steps.
+## How I Would Approach It
 
-## Research Method
+I would start by reviewing standards and current audit workflows. Next, I would interview product-team members about a recent accessibility decision. Paid disabled participants would then evaluate an accessible prototype using the tools and communication methods that work for them. A second round would test the revised audit-to-ticket flow.
 
-- Review of accessibility audit workflows
-- Interviews with product team roles
-- Accessibility-focused usability review of audit concepts
-- Synthesis of learning needs across design, development, and QA
+## Hypotheses To Test
 
-## Key Insights
+- Impact explanations may improve prioritization more than technical rule descriptions alone.
+- Severity, frequency, remediation effort, and release risk may need separate representations.
+- Role-specific guidance may clarify ownership while shared evidence maintains alignment.
+- Automated results must be paired with guided manual validation.
 
-- Teams need to understand user impact before technical remediation feels meaningful.
-- Automated findings are useful but incomplete.
-- Role-specific guidance reduces confusion about ownership.
-- Severity, frequency, and effort should be separated to support better prioritization.
+## Working With Participants
 
-## Design Implications
+I would recruit for relevant access experiences instead of using the broad label “accessibility user.” Participants would receive materials in advance, choose any accommodations they need, receive payment for their time, and decide separately whether a de-identified excerpt could be shared publicly.
 
-The platform should treat accessibility as a workflow, not a checklist. It should guide users from detection to validation, impact explanation, prioritization, remediation, and ticket creation.
+## What It Would Help Decide
 
-## Recommendations
+The work would help the team choose an audit workflow, a way to prioritize issues, and a useful handoff format. If the product ships, I would look at manual testing, ticket quality, verified fixes, repeated defects, and feedback from disabled users. There are no results to report yet.
 
-- Add plain-language impact summaries to each finding.
-- Provide role-specific learning paths and audit views.
-- Include manual testing instructions for keyboard and assistive technology checks.
-- Generate implementation-ready issue summaries.
+## Reflection
 
-## Outcome
+The most useful part of this study may be where lived experience challenges the team's assumptions. Until that research happens, this remains a plan.
 
-The simulated research produced a product direction centered on accessibility learning, inclusive validation, and practical team adoption.
-
-## What I Would Test Next
-
-I would test the audit workflow with assistive technology users and product team members to validate both usability and accuracy of prioritization.
+Explore the [project hub](../projects/508dev/), [research plan](../research-plans/accessibility-platform-research-plan.md), and [interview guide](../interview-guides/accessibility-user-interview-guide.md).

@@ -1,52 +1,73 @@
-# A/B Test Template
+# A/B Test Pre-Registration Template
 
-## Experiment Name
+## Experiment Metadata
 
-`[Experiment name]`
+- **Experiment:** `[Name]`
+- **Status:** `Pre-registration; not started`
+- **Decision owner:** `[Role]`
+- **Analysis owner:** `[Role]`
+- **Planned dates:** `[Dates]`
+- **Assignment unit:** `[User, account, organization, or session]`
 
-## Artifact Type
+## Decision And Rationale
 
-`[Real experiment, Portfolio Simulation, experiment proposal, etc.]`
+`[State the decision, existing evidence, and why an experiment is necessary.]`
 
 ## Hypothesis
 
-If `[change]`, then `[user behavior]` will improve because `[reason]`.
+`[If change, then behavior, because mechanism.]`
 
-## Control
+## Eligibility And Exclusions
 
-Describe the current experience.
+- **Included:** `[Rules]`
+- **Excluded:** `[Employees, bots, existing users, test traffic, or other preregistered rules]`
+- **Exposure definition:** `[When assignment counts as exposure]`
+- **Contamination risks:** `[Cross-device, shared account, repeat exposure]`
 
-## Variant
+## Variants
 
-Describe the changed experience.
+| Version | Description | Accessibility And Performance Parity |
+| --- | --- | --- |
+| Control | `[Current experience]` | `[Checks]` |
+| Variant | `[One intentional change]` | `[Checks]` |
 
-## Primary Metric
+## Metrics
 
-Define the main metric that determines the result.
+| Type | Metric | Numerator | Denominator | Window | Direction Or Limit |
+| --- | --- | --- | --- | --- | --- |
+| Primary | `[Metric]` | `[Definition]` | `[Definition]` | `[Window]` | `[Target]` |
+| Guardrail | `[Metric]` | `[Definition]` | `[Definition]` | `[Window]` | `[Limit]` |
 
-## Secondary Metrics
+## Sample And Statistical Plan
 
-- Metric 1
-- Metric 2
-- Metric 3
+- **Baseline:** `[Value and period]`
+- **Minimum practically important effect:** `[Absolute and relative]`
+- **Significance level:** `[Alpha]`
+- **Power:** `[Target]`
+- **Required sample per variant:** `[Calculated value]`
+- **Multiple comparisons:** `[Adjustment or limitation]`
+- **Planned model or test:** `[Method]`
+- **Missing data:** `[Treatment]`
+- **Stopping rule:** `[Fixed horizon or approved sequential method]`
 
-## Guardrail Metrics
+Do not stop when a desirable result appears. If traffic cannot support the plan, choose a different method.
 
-- Metric that should not get worse
-- Metric that protects user experience or business risk
+## Randomization And Instrumentation
 
-## Sample Size Considerations
+Document assignment persistence, identity handling, event names, properties, attribution, timezones, late events, quality checks, and sample-ratio mismatch response.
 
-Document baseline rate, minimum detectable effect, expected traffic, test duration, and segmentation needs.
+## Segmentation
+
+List only preregistered, decision-relevant segments. Label all other subgroup analysis exploratory and avoid shipping from a small favorable subgroup.
+
+## Ethical And Operational Review
+
+Confirm truthful content, informed expectations, privacy, accessibility parity, performance parity, risk to vulnerable users, rollback ownership, and customer-support readiness.
 
 ## Decision Rule
 
-State what result will lead to ship, iterate, stop, or retest.
+`[State practical and statistical criteria, guardrail limits, and actions for positive, negative, and inconclusive results.]`
 
-## Expected Result
+## Reporting
 
-Describe what the team expects and why.
-
-## Follow-Up Action
-
-List what should happen after the test, including research, design, analytics, or engineering work.
+Report absolute and relative effects, uncertainty, sample, exclusions, quality checks, null or negative results, implementation incidents, limitations, decision, and follow-up.

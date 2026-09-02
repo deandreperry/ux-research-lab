@@ -1,6 +1,8 @@
-# Accessibility Audit Journey
+# Accessibility Audit Hypothesis Journey
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Assumption map; disabled-participant and team-workflow validation required
+
+The “Thoughts” entries are illustrative prompts, not participant quotations. Product-team and disabled-participant evidence must remain distinguishable.
 
 ## Scenario
 
@@ -26,3 +28,7 @@ Identify accessibility issues, understand their user impact, prioritize fixes, a
 - Explain impact in plain language before technical remediation.
 - Provide role-based views for design, development, QA, and product.
 - Make audit outputs easy to convert into implementation tasks.
+
+## Validation Plan
+
+Observe product-team audit work and compensated disabled participants using an accessible prototype. Attach evidence IDs and source type to every validated stage. Document alternate paths, access barriers, skipped automation, specialist escalation, and failed remediation rather than forcing one ideal workflow.

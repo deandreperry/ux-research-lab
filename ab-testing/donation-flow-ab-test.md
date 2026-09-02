@@ -1,6 +1,6 @@
 # Donation Flow A/B Test
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Pre-registration draft; experiment not run and impact claims not validated
 
 ## Hypothesis
 
@@ -16,7 +16,7 @@ Donation flow includes short impact examples next to common donation amounts, su
 
 ## Primary Metric
 
-Donation completion rate.
+Donation completion rate: unique eligible donors who complete a donation divided by unique eligible donors exposed to and starting the tested flow. Also report completion among all exposed visitors so the denominator does not hide upstream effects.
 
 ## Secondary Metrics
 
@@ -28,16 +28,28 @@ Donation completion rate.
 
 ## Sample Size Considerations
 
-Sample size would depend on baseline conversion rate, expected detectable lift, traffic volume, and acceptable risk. A low-traffic nonprofit may need a longer test window or directional evidence paired with qualitative feedback.
+Document baseline conversion, minimum practically important lift, significance level, power, expected traffic, seasonality, attribution window, and calculated sample per variant before launch. Do not extend indefinitely or stop when a desirable result appears. If traffic is insufficient, use comprehension testing and phased observation rather than an underpowered experiment.
 
-## Expected Result
+## Directional Hypothesis
 
 The variant is expected to improve completion among first-time donors by reducing uncertainty about impact.
 
 ## Decision Rule
 
-Ship the variant if it improves completion rate without lowering average donation amount or increasing form abandonment. If results are inconclusive, review qualitative feedback and consider a narrower test on donation copy.
+Ship only when the preregistered analysis shows a practically meaningful completion improvement and guardrails for comprehension, accessibility, payment error, refund, support contact, recurring-donation understanding, and average donation remain within agreed limits. Report absolute change, uncertainty, exclusions, and null or negative findings.
 
 ## Follow-Up Action
 
 Test whether impact examples work better as amount-specific microcopy, a short story link, or a post-donation reassurance message.
+
+## Assignment And Instrumentation
+
+- Randomize eligible visitors at the user level and persist assignment through the payment journey.
+- Define exposure, start, amount selection, payment error, completion, refund, and support events.
+- Exclude staff, test transactions, bots, and duplicate activity through preregistered rules.
+- Check sample-ratio mismatch, event parity, payment-provider differences, and device imbalance.
+- Avoid running across materially different fundraising events unless period effects are modeled in advance.
+
+## Ethical And Content Safeguards
+
+Every impact example must be verified by the organization, qualified when costs vary, and reviewed for respectful representation of communities served. Do not use guilt, false scarcity, confusing recurring-donation defaults, or a more accessible experience in only one condition. Privacy, payment security, and accessibility failures override conversion gains.

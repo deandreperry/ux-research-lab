@@ -1,6 +1,8 @@
 # Task Scenarios
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Study-ready task set; no task results claimed
+
+Tasks describe goals without naming interface controls. Pilot them for realism, reading level, accessibility, and accidental clues before use.
 
 ## Scenario Context
 
@@ -65,3 +67,11 @@ You are learning frontend development and want to improve how you build accessib
 - Recovery behavior
 - Accessibility barriers
 - Suggestions in participant language
+- Independent completion, hint use, moderator intervention, or abandonment
+- Path taken and decision evidence used
+- Technical failures separated from usability issues
+- Participant explanation separated from researcher interpretation
+
+## Counterbalancing And Stopping Rules
+
+Keep the learning sequence when earlier tasks establish required state. When testing independent information-architecture choices, rotate equivalent content examples to reduce order and familiarity effects. Stop a task when continuing creates unnecessary fatigue, distress, or risk; record the reason without treating the participant as the failure.

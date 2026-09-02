@@ -1,0 +1,16 @@
+# Operating-system files
+.DS_Store
+
+# Never commit participant or sensitive research data
+research-data/
+recordings/
+raw-transcripts/
+participant-contact*
+participant-incentive*
+consent-records/
+
+# Local exports and working files
+*.local.csv
+*.local.tsv
+*.local.xlsx
+*.local.pdf

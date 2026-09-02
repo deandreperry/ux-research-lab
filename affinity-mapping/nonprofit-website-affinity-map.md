@@ -1,8 +1,8 @@
-# Nonprofit Website Affinity Map
+# Nonprofit Website Hypothesis Map
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Assumption map for research planning; not donor, volunteer, or staff findings
 
-## Raw Observations
+## Hypotheses To Validate
 
 - Visitors look for mission, impact, and donation use before giving.
 - Donation buttons are easy to find, but donation confidence depends on context.
@@ -13,6 +13,8 @@
 - Mobile users need concise paths to donate, volunteer, or contact the organization.
 
 ## Grouped Themes
+
+These themes organize planning assumptions. Staff, donor, volunteer, program-participant, and analytics evidence should be labeled and analyzed by source before being combined.
 
 | Theme | Supporting Observations |
 | --- | --- |
@@ -50,3 +52,11 @@
 - Add trust signals before and during the donation flow.
 - Simplify volunteer navigation into one clear path.
 - Build a measurement plan around donation starts, form completion, and volunteer inquiries.
+
+## Evidence Upgrade Plan
+
+Replace each hypothesis with traceable, de-identified evidence and record which audience and task it represents. Preserve contradictions between mission, donor confidence, community access, and staff capacity instead of forcing one generic visitor narrative.
+
+| Hypothesis | Audience | Evidence IDs | Counterevidence | Confidence | Decision Affected |
+| --- | --- | --- | --- | --- | --- |
+| `[Statement to test]` | `[Staff/donor/volunteer/community]` | `[E-IDs]` | `[E-IDs or none]` | `[Low/medium/high]` | `[Decision]` |

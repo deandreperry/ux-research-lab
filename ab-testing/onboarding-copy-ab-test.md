@@ -1,6 +1,6 @@
 # Onboarding Copy A/B Test
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Pre-registration draft; experiment not run
 
 ## Hypothesis
 
@@ -16,7 +16,7 @@ Onboarding copy adds reassurance: mistakes are expected, feedback will explain w
 
 ## Primary Metric
 
-First lesson completion rate.
+First lesson completion rate: eligible newly enrolled learners completing the defined lesson within the attribution window divided by eligible learners who start it.
 
 ## Secondary Metrics
 
@@ -28,16 +28,28 @@ First lesson completion rate.
 
 ## Sample Size Considerations
 
-The test should segment by experience level because reassurance copy may affect beginners differently than experienced developers. Confidence survey responses should be interpreted as supporting evidence, not the only success signal.
+Use baseline completion, a minimum practically important lift, significance level, power, expected traffic, and attrition to calculate the required sample before launch. Experience-level effects are exploratory unless the study is powered and preregistered for interaction analysis. Confidence is supporting self-report, not the sole success measure.
 
-## Expected Result
+## Directional Hypothesis
 
 The variant is expected to improve completion for beginner learners and reduce abandonment after errors.
 
 ## Decision Rule
 
-Ship the variant if completion and recovery improve for beginners without adding noticeable friction for intermediate users.
+Ship only when the preregistered analysis shows a practically meaningful improvement in completion or independent recovery and guardrails for time, hint dependence, accessibility, return behavior, and intermediate-user friction remain within agreed limits. Report uncertainty, absolute change, exclusions, and null or negative results.
 
 ## Follow-Up Action
 
 Explore adaptive onboarding that changes based on learner confidence, prior experience, or first-task behavior.
+
+## Assignment And Instrumentation
+
+- Randomize eligible new learners at the account level and persist assignment.
+- Define lesson start, failure, hint, recovery, completion, return, and exposure events before launch.
+- Log whether recovery was independent, hint-assisted, or required support.
+- Check sample-ratio mismatch, missing events, repeated exposure, and instrumentation parity.
+- Use a fixed attribution window and document timezone and late-arriving events.
+
+## Guardrails And Ethics
+
+Guardrails include task errors, time to completion, hint dependence, accessibility failures, frustration or support signals, and seven-day return. Reassurance must not minimize real consequences, conceal destructive commands, or encourage users to ignore warnings. Run only in a safe learning environment.

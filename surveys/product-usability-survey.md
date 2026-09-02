@@ -1,6 +1,11 @@
 # Product Usability Survey
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Study-ready post-task survey; no responses collected
+- **Estimated completion time:** 3–4 minutes
+
+## Consent And Administration
+
+Administer after the observed tasks so ratings do not prime behavior. Explain voluntary participation, data use, retention, and incentive. Store responses under participant IDs rather than names and provide “prefer not to answer” for nonessential items.
 
 ## Survey Goal
 
@@ -12,9 +17,9 @@ Learners testing a frontend education product or interactive documentation exper
 
 ## Screening Questions
 
-- What is your current comfort level with frontend development?
-- Have you used interactive coding lessons before?
-- Which device did you use during the session?
+- What is your current comfort with frontend development? `Not at all comfortable / slightly / moderately / very / extremely comfortable`
+- Before today, how often had you used interactive coding lessons? `Never / once / occasionally / monthly / weekly or more`
+- Which device and input methods did you use during this session? `[Select all that apply, plus another response]`
 
 ## Multiple-Choice Questions
 
@@ -48,4 +53,12 @@ Rate from 1, strongly disagree, to 5, strongly agree:
 
 ## How Results Would Be Analyzed
 
-Scores would be compared across experience levels and task outcomes. Qualitative responses would be coded for navigation friction, content clarity, feedback usefulness, confidence, and perceived value. Findings would be paired with usability observations before prioritizing changes.
+Predefine which ratings support each research question. Report counts, denominators, distributions, missing responses, and field dates. Compare ratings with observed task success, errors, hint use, and moderator intervention; do not treat a mean rating as proof of usability. Segment only when subgroup sizes and research purpose justify it. Code open responses using a documented scheme and retain contradictory cases.
+
+## Quality Checks
+
+- Pilot response labels and avoid unlabeled numeric endpoints.
+- Randomize non-ordinal lists when appropriate.
+- Keep perceived ease, confidence, learning, and intent as separate constructs.
+- Report recruitment source and limitations.
+- Use a validated instrument such as SUS only when its full administration and scoring rules fit the decision.

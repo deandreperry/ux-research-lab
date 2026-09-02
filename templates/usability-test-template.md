@@ -1,60 +1,72 @@
 # Usability Test Template
 
-## Product Or Feature
+## Study Metadata
 
-`[Name of product, feature, workflow, or prototype]`
+- **Product or feature:** `[Name and version]`
+- **Status:** `[Draft / piloted / in field / complete]`
+- **Decision owner:** `[Role]`
+- **Planned sample:** `[Size and rationale]`
+- **Session length:** `[Duration]`
 
-## Artifact Type
+## Decision And Objectives
 
-`[Real study, Portfolio Simulation, prototype test, benchmark test, etc.]`
+`[State the product decision and the behaviors, comprehension, or barriers the study must evaluate.]`
 
-## Test Objectives
+## Research Questions
 
-- Objective 1
-- Objective 2
-- Objective 3
+| ID | Question | Task IDs |
+| --- | --- | --- |
+| RQ1 | `[Question]` | `[T1, T2]` |
 
-## Participant Criteria
+## Participants
 
-Describe target participants, experience level, accessibility considerations, and exclusion criteria.
+- **Inclusion:** `[Recent relevant behavior]`
+- **Exclusion:** `[Reason]`
+- **Variation sought:** `[Experience, context, access needs]`
+- **Recruitment source:** `[Source]`
+- **Incentive:** `[Amount and timing]`
+- **Expected sample gaps:** `[Limitations]`
+
+## Consent, Accessibility, And Safety
+
+- Confirm voluntary participation and the right to skip, pause, or stop.
+- Obtain separate consent for recording and public de-identified excerpts.
+- Ask about accommodations and test the prototype access path.
+- Use safe accounts, environments, and test data.
+- Define how technical failure and participant distress will be handled.
 
 ## Tasks
 
-| Task | Scenario | Success Criteria |
-| --- | --- | --- |
-| 1 |  |  |
-| 2 |  |  |
-| 3 |  |  |
+| ID | Goal-Based Prompt | Success Criteria | Evidence To Capture | Stopping Rule |
+| --- | --- | --- | --- | --- |
+| T1 | `[Do not name the control being tested]` | `[Observable behavior]` | `[Path, errors, explanation]` | `[Safety or time rule]` |
 
-## Moderator Script
+## Moderation Protocol
 
-Use a neutral introduction, remind participants that the product is being tested, and ask them to think aloud.
+- Use neutral prompts and allow silence.
+- Record every hint and intervention.
+- Separate technical failures, product issues, and input mistakes.
+- Avoid teaching or defending the product.
+- Stop when continued effort creates unnecessary risk or fatigue.
 
-## Metrics And Observations
+## Measures
 
-- Task completion
-- Time on task
-- Errors
-- Help requests
-- Confidence
-- Confusion points
-- Accessibility barriers
+For each task, record independent completion, hint-assisted completion, moderator-assisted completion, abandonment, critical errors, path, and participant explanation. Use time as contextual evidence rather than a universal usability score.
 
-## Severity Levels
+## Analysis
 
-| Severity | Definition |
-| --- | --- |
-| Critical | Blocks completion or creates serious access barrier. |
-| High | Causes major confusion or requires assistance. |
-| Medium | Slows progress but users recover independently. |
-| Low | Minor friction or clarity issue. |
+Map evidence to research questions and task IDs. Separate observation from interpretation, preserve counterexamples, and report meaningful denominators. Each finding requires evidence IDs, severity rationale, confidence, limitation, decision, and owner.
 
-## Findings Format
+## Severity
 
-| Finding | Evidence | Severity | Recommendation |
-| --- | --- | --- | --- |
-|  |  |  |  |
+Assess user impact, task criticality, affected users, recurrence, recovery, accessibility, and confidence. Keep engineering effort separate from severity.
 
-## Next Steps
+## Reporting And Decision Log
 
-List design, content, engineering, or research follow-up actions.
+| Recommendation | Evidence IDs | Owner | Priority | Disposition | Follow-Up Signal |
+| --- | --- | --- | --- | --- | --- |
+| `[Recommendation]` | `[IDs]` | `[Role]` | `[Now/next/later]` | `[Adopt/test/defer/decline]` | `[Measure]` |
+
+## Limitations And Next Research
+
+Document sample coverage, fidelity, artificial tasks, interventions, technical issues, researcher bias, and what the study cannot establish. Choose the next method based on remaining decision risk.

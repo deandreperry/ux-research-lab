@@ -1,10 +1,14 @@
-# Nonprofit Admin Persona
+# Provisional Nonprofit Content-Operations Archetype
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Hypothesis archetype; organization-specific validation required
+
+## Intended Use
+
+Use this archetype to expose assumptions about content maintenance and operational constraints. Do not treat one fictional administrator as representative of organizations with different missions, staffing, governance, or technology.
 
 ## Background
 
-Angela manages communications and operations for a small nonprofit. She updates program pages, coordinates volunteer information, supports fundraising campaigns, and answers questions from donors and community members.
+A small-nonprofit staff member manages communications and operations across program pages, volunteer information, fundraising campaigns, and visitor questions. The relevant behavior is maintaining accurate content under limited time and technical support.
 
 ## Goals
 
@@ -47,3 +51,11 @@ Angela needs content templates that support readable headings, meaningful links,
 - Create maintainable page templates for programs and campaigns.
 - Add donation impact modules that are easy to update.
 - Simplify volunteer information into a single action path.
+
+## Jobs To Be Done
+
+When programs or campaigns change, this practitioner needs to update approved, accessible content without engineering support so visitors receive accurate information and staff avoid repetitive questions.
+
+## Validation Requirements
+
+Observe recent content updates, approval paths, workarounds, and analytics use across several staff roles. Split leadership decision-making from routine content operations when the evidence shows different needs.

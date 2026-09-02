@@ -1,6 +1,8 @@
-# Developer Learning Journey
+# Developer Learning Hypothesis Journey
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Assumption map; stages and thoughts are not participant findings
+
+The statements in the “Thoughts” column are illustrative internal dialogue, not quotations. Replace them with consented, de-identified evidence only after research.
 
 ## Scenario
 
@@ -26,3 +28,7 @@ Learn a practical frontend skill, recover from mistakes, and feel confident appl
 - Treat error recovery as a teaching moment.
 - Use confidence-building copy without hiding technical accuracy.
 - Provide progress feedback during, not only after, task completion.
+
+## Validation Plan
+
+Observe discovery, practice, recovery, and continuation in task-based sessions. Record evidence IDs by stage, behavior, barrier, workaround, and emotional signal. Validate continuity between stages rather than assuming one linear journey; add alternate paths for abandonment, help-seeking, and return.

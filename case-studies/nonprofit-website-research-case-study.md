@@ -1,45 +1,34 @@
 # Nonprofit Website Research Case Study
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Planning only; research has not started
+- **My role:** Research plan, content and journey review, interview and test design, and experiment planning
+- **Decision:** Prioritize content and journey changes that support visitor action and staff maintainability
 
-## Project Overview
+## Why This Project
 
-This case study explores a nonprofit website redesign focused on mission clarity, donation confidence, volunteer discovery, and admin content maintainability.
+A small nonprofit website needs to explain the mission, build trust, and help people act, often with very little staff time. Donors, volunteers, program participants, and partners use the same site for different reasons, so I would not treat them as one generic audience.
 
-## Problem
+## How I Would Approach It
 
-Nonprofit websites need to build trust quickly while helping visitors take meaningful action. When impact, donation use, or volunteer requirements are unclear, users may leave before engaging.
+I would start with staff interviews and a review of the content workflow. I would run separate task sessions with first-time donors and prospective volunteers, focusing on understanding, trust, accessibility, and completion problems. I would test revised content and navigation before considering a live experiment.
 
-## Research Method
+## Hypotheses To Test
 
-- Content and journey audit
-- Nonprofit admin interview guide
-- Donor feedback survey design
-- Donation flow usability test plan
-- A/B test planning for CTA and impact copy
+- First-time donors may need mission, legitimacy, and use-of-funds context before entering a form.
+- Volunteers may need commitment, eligibility, and next-step information in one path.
+- Mobile and assistive-technology barriers may prevent action even when content is persuasive.
+- A flexible content system may reduce staff effort and outdated information.
 
-## Key Insights
+## Experiment Boundaries
 
-- Donors need trust and impact context before donation fields.
-- Volunteer paths should explain commitment, requirements, and next steps.
-- Admins need page structures they can update without design or engineering support.
-- Mobile completion matters because many visitors arrive from social links.
+Donation copy needs to be accurate. I would not test guilt, confusing defaults, or false urgency. Accessibility, privacy, payment errors, and donor understanding matter even if a version produces more donations.
 
-## Design Implications
+## What It Would Help Decide
 
-The website should prioritize mission clarity, trust-building content, and action paths. The CMS structure should be as much a UX concern as the public-facing pages.
+The research would help the organization choose a manageable content structure and clearer donor and volunteer paths. If changes go live, I would compare understanding, task success, errors, completion, support requests, and staff maintenance time with a baseline. Fundraising can change for many reasons, so I would be careful about assigning credit to one page change.
 
-## Recommendations
+## Reflection
 
-- Add concise mission and service-area language near the top of key pages.
-- Pair donation amounts with clear impact examples.
-- Consolidate volunteer information into a guided path.
-- Use maintainable content modules for programs, campaigns, and stories.
+This plan still needs a specific organization. General nonprofit assumptions are a starting point, not a substitute for talking with staff, donors, volunteers, and community members.
 
-## Outcome
-
-The simulated research produced a redesign strategy that balances donor confidence, visitor action, and nonprofit staff capacity.
-
-## What I Would Test Next
-
-I would test donation amount copy and volunteer page structure with first-time visitors on mobile devices.
+Explore the [project hub](../projects/nonprofit-website/), [research plan](../research-plans/nonprofit-website-research-plan.md), and [experiment brief](../ab-testing/donation-flow-ab-test.md).

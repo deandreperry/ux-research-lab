@@ -1,50 +1,64 @@
-# Usability Findings Report
+# Illustrative Usability Findings Report
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Reporting example only; no participant sessions or results claimed
+- **Product concept:** Interactive frontend learning platform focused on accessible form validation
+- **Decision:** Identify lesson and feedback changes to prototype next
 
-## Product Tested
+## Why This File Exists
 
-Interactive frontend learning platform focused on accessible form validation.
+This document demonstrates how a concise usability readout could connect evidence to decisions. The rows below are hypothetical examples based on the product scenario. They must be replaced—not relabeled—with results from completed sessions.
 
-## Test Objectives
+## Research Questions
 
-- Evaluate lesson discovery.
-- Assess clarity of task instructions.
-- Understand error recovery behavior.
-- Identify improvements to progress visibility and confidence.
+1. Can eligible learners find and correctly interpret the lesson?
+2. Do prerequisites support an informed start decision?
+3. Can learners interpret feedback and recover from an error?
+4. Does progress information support the next action?
+5. Does the experience communicate the human impact of accessible validation?
 
-## Participant Criteria
+## Illustrative Reporting Format
 
-This simulation assumes beginner to intermediate frontend learners. It does not claim that live sessions were conducted.
-
-## Summary Of Findings
-
-| Finding | Severity | Evidence Pattern | Recommendation |
+| Hypothetical Pattern | Evidence Required | Potential Severity | Decision It Could Inform |
 | --- | --- | --- | --- |
-| Lesson titles were understandable, but filters were too broad. | Medium | Users could search by topic but struggled to narrow by skill level. | Add skill level, topic, and accessibility filters with clear labels. |
-| Prerequisites were easy to miss. | High | Learners started tasks before understanding required HTML knowledge. | Place prerequisites before the start button and summarize them in plain language. |
-| Error messages identified failure but did not always explain recovery. | High | Users knew something was wrong but were unsure what to change. | Pair each error with likely cause, example fix, and link to concept review. |
-| Progress state was visible after completion but weak during tasks. | Medium | Learners wanted reassurance that partial steps were moving forward. | Add step-level progress and "saved" or "checked" feedback. |
-| Accessibility concepts needed more user impact context. | Medium | Learners understood rules better when connected to form users. | Add short impact notes explaining who is affected and why it matters. |
+| Learners choose lessons without noticing prerequisites | Task recordings, path notes, participant explanations, relevant n/N | High if it causes repeated task failure | Placement and wording of prerequisites |
+| Error feedback identifies failure but not recovery | Error attempts, intervention, recovery time, de-identified excerpt | High if independent recovery fails | Feedback content model and hint sequence |
+| Progress is visible after completion but unclear during work | Behavior, save-state interpretation, confidence with rationale | Medium unless work is lost | Step status and save confirmation |
+| Accessibility rules appear without user-impact context | Comprehension probe and application task | Medium to high depending on misuse | Placement of impact explanations |
 
-## Recommendations
+## Finding Template
 
-- Make prerequisites impossible to miss before task start.
-- Add recovery-focused error feedback, not just validation failure states.
-- Include expected output examples for each step.
-- Use progressive hints so learners can recover without giving away the answer immediately.
-- Add accessibility impact notes near implementation steps.
+### `[Behavioral finding, not a solution headline]`
 
-## Success Criteria Review
+- **Decision informed:** `[Decision]`
+- **Evidence:** `[Observed behavior, evidence IDs, and relevant denominator]`
+- **Participant explanation:** `[Short consented excerpt or paraphrase]`
+- **Variation and counterevidence:** `[Who behaved differently]`
+- **Interpretation:** `[What the pattern may mean]`
+- **Severity:** `[Level with impact, frequency, and recovery rationale]`
+- **Recommendation:** `[Action, owner, and priority]`
+- **Confidence:** `[Low/medium/high with reason]`
+- **Validate next:** `[Remaining uncertainty]`
 
-| Criterion | Simulated Result |
+## Success-Criteria Reporting
+
+| Criterion | Result Format |
 | --- | --- |
-| Find relevant lesson | Mostly successful with search; filtering needs refinement. |
-| Understand lesson objective | Successful when objective is visible above the fold. |
-| Complete first coding task | Mixed; errors increased when prerequisites were skipped. |
-| Recover from error | Needs improvement; feedback should be more actionable. |
-| Understand next step | Mostly successful after completion, weaker during active tasks. |
+| Find relevant lesson | `[n/N independently; n/N with assistance; path variation]` |
+| Explain lesson objective | `[n/N plus misconceptions]` |
+| Identify prerequisites | `[n/N and decision impact]` |
+| Recover from planned error | `[n/N, attempts, hints, intervention]` |
+| Identify next action | `[n/N and confidence with rationale]` |
+
+## Recommendation Disposition
+
+| Recommendation | Evidence IDs | Owner | Priority | Stakeholder Decision | Follow-Up Signal |
+| --- | --- | --- | --- | --- | --- |
+| `[Recommendation]` | `[E-IDs]` | `[Role]` | `[Now/next/later]` | `[Adopt/test/defer/decline]` | `[Measure]` |
+
+## Limitations To Report
+
+Include sample coverage and gaps, prototype fidelity, task artificiality, moderator assistance, technical problems, researcher bias, missing sessions, and why the results should or should not transfer to production behavior.
 
 ## Next Research Step
 
-Run a follow-up usability test with revised prerequisites, improved error feedback, and clearer step-level progress indicators.
+After real sessions, select the next study based on unresolved decision risk. Do not automatically recommend another usability test when analytics, accessibility conformance review, longitudinal observation, or implementation validation would better answer the question.

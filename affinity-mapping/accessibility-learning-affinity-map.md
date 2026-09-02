@@ -1,8 +1,8 @@
-# Accessibility Learning Affinity Map
+# Accessibility Learning Hypothesis Map
 
-**Artifact type:** Portfolio Simulation
+- **Status:** Assumption map for research planning; not disabled-participant evidence
 
-## Raw Observations
+## Hypotheses To Validate
 
 - Teams often know accessibility matters but do not know where to start.
 - Automated tools are treated as final answers instead of partial signals.
@@ -13,6 +13,8 @@
 - Teams struggle to prioritize issues when severity and effort are mixed together.
 
 ## Grouped Themes
+
+These groups organize planning assumptions. Product-team beliefs and disabled participants' lived-experience evidence must be analyzed separately before intersections are interpreted.
 
 | Theme | Supporting Observations |
 | --- | --- |
@@ -49,3 +51,11 @@
 - Include assistive technology notes in examples.
 - Use plain language summaries before technical details.
 - Add "test this yourself" steps for keyboard and screen reader checks.
+
+## Evidence Upgrade Plan
+
+Replace hypotheses only after compensated research. For each theme, record evidence IDs, the access experiences represented, counterevidence, observed impact, confidence, and sample gaps. Do not publish combinations of disability details and technology that could indirectly identify a participant.
+
+| Hypothesis | Evidence Source | Counterevidence | Sample Gap | Confidence | Decision Affected |
+| --- | --- | --- | --- | --- | --- |
+| `[Statement to test]` | `[Disabled participant, team workflow, or desk-research IDs]` | `[Evidence IDs]` | `[Missing perspective]` | `[Low/medium/high]` | `[Decision]` |
